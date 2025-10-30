@@ -32,7 +32,7 @@ def listen():
             speak("Speech service not available")
             return ""
 def run_assistant():
-    speak("Hello, I am your Baby Siri. How I can help you")
+    speak("Hello, I am Babu-Voice-Assistant. How I can help you")
     while True:
         command = listen()
         if 'time' in command:
